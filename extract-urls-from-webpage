@@ -1,6 +1,6 @@
 <?php
 /****
-    *This script will extract all links from a webpage and prints as output
+    *This script will extract all links from a given webpage and prints.
 ***/
 
 $sourceURL="http://example.com";
