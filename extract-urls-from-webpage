@@ -1,4 +1,8 @@
 <?php
+/****
+    *This script will extract all links from a webpage and prints as output
+***/
+
 $sourceURL="http://example.com";
 $content=file_get_contents($sourceURL);
 $content = strip_tags($content,"<a>");
